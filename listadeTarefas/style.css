@@ -1,0 +1,87 @@
+@import url('.bebas-neue-regular { font-family: "Bebas Neue", sans-serif; font-weight: 400; font-style: normal; }');
+
+
+:root {
+    --baby-pink-color: rgb(255, 186, 252);
+    --deep-purple-color: rgb(72, 7, 69);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+body {
+    margin: 0;
+    margin-top: 50px;
+    padding: 0;
+    background: var(--deep-purple-color);
+    font-size: 24px;
+    line-height: 1.5em;
+}
+
+section {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px solid var(--baby-pink-color);
+}
+
+form button {
+    border: none;
+    background: var(--deep-purple-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30 px;
+}
+
+form button:hover {
+    background: var(--baby-pink-color);
+}
+
+.btn-tarefa {
+    background-color:rgb(255, 94, 0);
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+    color: white;
+    width: 25%;
+    height: 38px;
+    font-size: 18px;
+}
+
+.input-tarefa {
+    width: 50%;
+    height: 38px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.apagar {
+    background-color: red;
+    width: 10%;
+    height: 28px;
+    border-radius: 8px;
+    color: white;
+    font-size: 12px;
+}
